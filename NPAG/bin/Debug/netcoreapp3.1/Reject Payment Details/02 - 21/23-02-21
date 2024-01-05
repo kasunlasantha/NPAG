@@ -1,0 +1,82 @@
+----------------------------------------------------------------------------------
+         N-P-A-G Error log Info File.(c)Copyright 2021 EPIC Lanka Technologies   
+         This File was Generated for Developers Purposes, Please DO NOT DELETE!   
+         Report Generated On : 2/23/2021 11:57:38 AM
+----------------------------------------------------------------------------------
+
+ 
+2/23/2021 11:57:38 AM
+
+Method Name: CRMPAYVERIFY
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6014: Payment is already Paid by Shroff Office/EPIC TEST PLC (3908)
+   at NPAG.Services.UserService.Authenticate(VerifyRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 96
+   at NPAG.Controllers.PaymentController.Authenticate(VerifyRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 43
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21647587446 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+2/23/2021 12:14:12 PM
+
+Method Name: CRMPAYACCEPT
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6005: Invalid Payment Amount
+   at NPAG.Services.UserService.Payment(PayRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 152
+   at NPAG.Controllers.PaymentController.PostPayment(PayRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 91
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-1130337461 ~ 7998 ~ 625 ~ 0 ~ 02/06/2020 11:31:46 am ~  ~ Rvh0qecv5bR08o7hlTgx0Q== ~ MC0501C2004250000400 ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+2/23/2021 12:14:28 PM
+
+Method Name: CRMPAYACCEPT
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6006: Invalid Payment Amount
+   at NPAG.Services.UserService.Payment(PayRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 160
+   at NPAG.Controllers.PaymentController.PostPayment(PayRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 91
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-1130337461 ~ 7998 ~ 625 ~ 1 ~ 02/06/2020 11:31:46 am ~  ~ Rvh0qecv5bR08o7hlTgx0Q== ~ MC0501C2004250000400 ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+2/23/2021 12:15:07 PM
+
+Method Name: CRMPAYACCEPT
+
+Return Message System.ArgumentNullException: Value cannot be null. (Parameter 'input')
+   at System.Text.RegularExpressions.Regex.IsMatch(String input)
+   at NPAG.Services.UserService.Payment(PayRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 184
+   at NPAG.Controllers.PaymentController.PostPayment(PayRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 91
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-1130337461 ~ 7998 ~ 625 ~ 1 ~ 02/06/2020 11:31:46 am ~  ~ Rvh0qecv5bR08o7hlTgx0Q== ~ MC0501C2004250000400 ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+2/23/2021 12:16:50 PM
+
+Method Name: CRMPAYACCEPT
+
+Return Message System.ArgumentNullException: Value cannot be null. (Parameter 'input')
+   at System.Text.RegularExpressions.Regex.IsMatch(String input)
+   at NPAG.Services.UserService.Payment(PayRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 184
+   at NPAG.Controllers.PaymentController.PostPayment(PayRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 91
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-1130337461 ~ 7998 ~ 625 ~ 1 ~ 02/06/2020 11:31:46 am ~  ~ Rvh0qecv5bR08o7hlTgx0Q== ~ MC0501C2004250000400 ~ 0.0.0.1
+----------------------------------------------------------------------------------

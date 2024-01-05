@@ -1,0 +1,33 @@
+----------------------------------------------------------------------------------
+         N-P-A-G Error log Info File.(c)Copyright 2021 EPIC Lanka Technologies   
+         This File was Generated for Developers Purposes, Please DO NOT DELETE!   
+         Report Generated On : 3/3/2021 9:37:54 PM
+----------------------------------------------------------------------------------
+
+ 
+3/3/2021 9:37:54 PM
+
+Method Name: CRMPAYVERIFY
+
+Posted Values:
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-1125854974 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: IDCSH Test Billing, 713044930, 10000
+----------------------------------------------------------------------------------
+
+ 
+3/3/2021 9:40:03 PM
+
+Method Name: CRMPAYACCEPT
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-1125854974 ~ 7998 ~ 625 ~ 10000 ~ 02/06/2020 11:31:46 am ~ test1 ~ Rvh0qecv5bR08o7hlTgx0Q== ~ MC0501C2004250000401 ~ 0.0.0.1
+
+Returned Values: 3951
+----------------------------------------------------------------------------------

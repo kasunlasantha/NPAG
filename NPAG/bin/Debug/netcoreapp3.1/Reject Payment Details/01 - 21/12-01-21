@@ -1,0 +1,94 @@
+----------------------------------------------------------------------------------
+         N-P-A-G Error log Info File.(c)Copyright 2021 EPIC Lanka Technologies   
+         This File was Generated for Developers Purposes, Please DO NOT DELETE!   
+         Report Generated On : 1/12/2021 2:33:47 AM
+----------------------------------------------------------------------------------
+
+ 
+1/12/2021 2:33:47 AM
+
+Method Name: CRMPAYVERIFY
+
+Return Message Oracle.ManagedDataAccess.Client.OracleException (0x80004005): Connection request timed out
+   at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPwd, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassword, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, SecureString securedPassword, SecureString securedProxyPassword, OracleConnection connRefForCriteria)
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleRelationalCommandBuilderFactory.OracleRelationalCommandBuilder.OracleRelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Oracle.EntityFrameworkCore.Storage.Internal.OracleExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at NPAG.Services.UserService.Authenticate(VerifyRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 71
+   at NPAG.Controllers.PaymentController.Authenticate(VerifyRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 32
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-22142097 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+1/12/2021 2:08:32 PM
+
+Method Name: CRMPAYVERIFY
+
+Return Message System.Security.Authentication.AuthenticationException: No matching companydata found in table related to already paid invoice compcode/branchcode
+   at NPAG.Services.UserService.Authenticate(VerifyRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 93
+   at NPAG.Controllers.PaymentController.Authenticate(VerifyRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 32
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-22142097 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+1/12/2021 2:12:48 PM
+
+Method Name: CRMPAYVERIFY
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6014: Payment is already Paid by TestBranchName/TestCompName
+   at NPAG.Services.UserService.Authenticate(VerifyRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 95
+   at NPAG.Controllers.PaymentController.Authenticate(VerifyRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 32
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-22142097 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+1/12/2021 2:33:27 PM
+
+Method Name: CRMPAYVERIFY
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6014: Payment is already Paid by TestBranchName/TestCompName
+   at NPAG.Services.UserService.Authenticate(VerifyRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 95
+   at NPAG.Controllers.PaymentController.Authenticate(VerifyRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 32
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-22142097 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+1/12/2021 3:44:01 PM
+
+Method Name: CRMPAYACCEPT
+
+Return Message System.Security.Authentication.AuthenticationException: Error - 6007: Invalid Payment Date Time
+   at NPAG.Services.UserService.Payment(PayRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 165
+   at NPAG.Controllers.PaymentController.PostPayment(PayRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 80
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-22142097 ~ 7998 ~ 625 ~ 1436.88 ~  ~ test1 ~ Rvh0qecv5bR08o7hlTgx0Q== ~ MC0501C2004250000400 ~ 0.0.0.1
+----------------------------------------------------------------------------------

@@ -1,0 +1,80 @@
+----------------------------------------------------------------------------------
+         N-P-A-G Error log Info File.(c)Copyright 2021 EPIC Lanka Technologies   
+         This File was Generated for Developers Purposes, Please DO NOT DELETE!   
+         Report Generated On : 1/20/2021 1:21:32 PM
+----------------------------------------------------------------------------------
+
+ 
+1/20/2021 1:21:32 PM
+
+Method Name: CRMPAYVERIFY
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6014: Payment is already Paid by TestBranchName/TestCompName
+   at NPAG.Services.UserService.Authenticate(VerifyRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 95
+   at NPAG.Controllers.PaymentController.Authenticate(VerifyRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 32
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-22142097 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+1/20/2021 1:26:49 PM
+
+Method Name: CRMPAYVERIFY
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6014: Payment is already Paid by TestBranchName/TestCompName
+   at NPAG.Services.UserService.Authenticate(VerifyRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 95
+   at NPAG.Controllers.PaymentController.Authenticate(VerifyRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 32
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-22142097 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+1/20/2021 1:28:07 PM
+
+Method Name: CRMPAYVERIFY
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6014: Payment is already Paid by TestBranchName/TestCompName
+   at NPAG.Services.UserService.Authenticate(VerifyRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 95
+   at NPAG.Controllers.PaymentController.Authenticate(VerifyRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 32
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-22142097 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+1/20/2021 2:02:38 PM
+
+Method Name: CRMPAYACCEPT
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6005: Invalid Payment Amount
+   at NPAG.Services.UserService.Payment(PayRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 154
+   at NPAG.Controllers.PaymentController.PostPayment(PayRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 80
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-22142097 ~ 7998 ~ 625 ~ 50000000.00 ~ 02/06/2020 11:31:46 am ~ test1 ~ Rvh0qecv5bR08o7hlTgx0Q== ~ MC0501C2004250000400 ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+1/20/2021 2:04:35 PM
+
+Method Name: CRMPAYACCEPT
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6005: Invalid Payment Amount
+   at NPAG.Services.UserService.Payment(PayRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 154
+   at NPAG.Controllers.PaymentController.PostPayment(PayRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 80
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-22142097 ~ 7998 ~ 625 ~ 50000000.00 ~ 02/06/2020 11:31:46 am ~ test1 ~ Rvh0qecv5bR08o7hlTgx0Q== ~ MC0501C2004250000400 ~ 0.0.0.1
+----------------------------------------------------------------------------------

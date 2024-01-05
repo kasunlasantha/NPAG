@@ -1,0 +1,198 @@
+----------------------------------------------------------------------------------
+         N-P-A-G Error log Info File.(c)Copyright 2021 EPIC Lanka Technologies   
+         This File was Generated for Developers Purposes, Please DO NOT DELETE!   
+         Report Generated On : 3/5/2021 10:51:57 AM
+----------------------------------------------------------------------------------
+
+ 
+3/5/2021 10:51:57 AM
+
+Method Name: CRMPAYVERIFY
+
+Posted Values:
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Miss D. M. U. G. S. ABESINGHE, 781252859, 1597.95
+----------------------------------------------------------------------------------
+
+ 
+3/5/2021 11:03:23 AM
+
+Method Name: CRMPAYVERIFY
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Miss D. M. U. G. S. ABESINGHE, 781252859, 1597.95
+----------------------------------------------------------------------------------
+
+ 
+3/5/2021 11:37:16 AM
+
+Method Name: CRMPAYVERIFY
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Miss D. M. U. G. S. ABESINGHE, 781252859, 1597.95
+----------------------------------------------------------------------------------
+
+ 
+3/5/2021 11:43:58 AM
+
+Method Name: CRMPAYVERIFY
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Miss D. M. U. G. S. ABESINGHE, 781252859, 1597.95
+----------------------------------------------------------------------------------
+
+ 
+3/5/2021 11:49:07 AM
+
+Method Name: CRMPAYVERIFY
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Miss D. M. U. G. S. ABESINGHE, 781252859, 1597.95
+----------------------------------------------------------------------------------
+
+ 
+3/5/2021 11:54:15 AM
+
+Method Name: CRMPAYVERIFY
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Miss D. M. U. G. S. ABESINGHE, 781252859, 1597.95
+----------------------------------------------------------------------------------
+
+ 
+3/5/2021 12:53:20 PM
+
+Method Name: CRMPAYVERIFY
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Miss D. M. U. G. S. ABESINGHE, 781252859, 1597.95
+----------------------------------------------------------------------------------
+
+ 
+3/5/2021 2:16:35 PM
+
+Method Name: CRMPAYVERIFY
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Miss D. M. U. G. S. ABESINGHE, 781252859, 1597.95
+----------------------------------------------------------------------------------
+
+ 
+3/5/2021 2:37:00 PM
+
+Method Name: CRMPAYVERIFY
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Miss D. M. U. G. S. ABESINGHE, 781252859, 1597.95
+----------------------------------------------------------------------------------
+
+ 
+3/5/2021 6:14:21 PM
+
+Method Name: CRMPAYVERIFY
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Miss D. M. U. G. S. ABESINGHE, 781252859, 1597.95
+----------------------------------------------------------------------------------
+
+ 
+3/5/2021 6:45:19 PM
+
+Method Name: CRMPAYVERIFY
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Miss D. M. U. G. S. ABESINGHE, 781252859, 1597.95
+----------------------------------------------------------------------------------
+
+ 
+3/5/2021 6:50:33 PM
+
+Method Name: CRMPAYVERIFY
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Miss D. M. U. G. S. ABESINGHE, 781252859, 1597.95
+----------------------------------------------------------------------------------
+
+ 
+3/5/2021 6:50:56 PM
+
+Method Name: CRMPAYACCEPT
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ 1597.95 ~ 02/06/2020 11:31:46 am ~ klbtest1 ~ Rvh0qecv5bR08o7hlTgx0Q== ~ MC0501C2004250000402 ~ 0.0.0.1
+
+Returned Values: 3982
+----------------------------------------------------------------------------------

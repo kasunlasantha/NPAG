@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------
+         N-P-A-G Error log Info File.(c)Copyright 2021 EPIC Lanka Technologies   
+         This File was Generated for Developers Purposes, Please DO NOT DELETE!   
+         Report Generated On : 2/1/2021 1:53:14 PM
+----------------------------------------------------------------------------------
+
+ 
+2/1/2021 1:53:14 PM
+
+Method Name: CRMPAYVERIFY
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6001: Invalid Order Number
+   at NPAG.Services.UserService.Authenticate(VerifyRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 79
+   at NPAG.Controllers.PaymentController.Authenticate(VerifyRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 42
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-22142097 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+----------------------------------------------------------------------------------

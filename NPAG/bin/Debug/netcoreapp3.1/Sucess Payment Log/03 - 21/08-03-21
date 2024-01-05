@@ -1,0 +1,63 @@
+----------------------------------------------------------------------------------
+         N-P-A-G Error log Info File.(c)Copyright 2021 EPIC Lanka Technologies   
+         This File was Generated for Developers Purposes, Please DO NOT DELETE!   
+         Report Generated On : 3/8/2021 2:58:38 PM
+----------------------------------------------------------------------------------
+
+ 
+3/8/2021 2:58:38 PM
+
+Method Name: CRMPAYVERIFY
+
+Posted Values:
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ CY2yNSQLR36YNo9sh0Z7qw== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Miss D. M. U. G. S. ABESINGHE, 781252859, 1597.95
+----------------------------------------------------------------------------------
+
+ 
+3/8/2021 4:25:48 PM
+
+Method Name: CRMPAYVERIFY
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ CY2yNSQLR36YNo9sh0Z7qw== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Miss D. M. U. G. S. ABESINGHE, 781252859, 1597
+----------------------------------------------------------------------------------
+
+ 
+3/8/2021 4:31:59 PM
+
+Method Name: CRMPAYVERIFY
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ CY2yNSQLR36YNo9sh0Z7qw== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Miss D. M. U. G. S. ABESINGHE, 781252859, 1597
+----------------------------------------------------------------------------------
+
+ 
+3/8/2021 4:39:48 PM
+
+Method Name: CRMPAYACCEPT
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ 1597.00 ~ 02/06/2020 11:31:46 am ~ kasuntest1 ~ CY2yNSQLR36YNo9sh0Z7qw== ~ MC0501C2004250000402 ~ 0.0.0.1
+
+Returned Values: 4001
+----------------------------------------------------------------------------------

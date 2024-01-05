@@ -1,0 +1,110 @@
+----------------------------------------------------------------------------------
+         N-P-A-G Error log Info File.(c)Copyright 2021 EPIC Lanka Technologies   
+         This File was Generated for Developers Purposes, Please DO NOT DELETE!   
+         Report Generated On : 3/8/2021 2:42:06 PM
+----------------------------------------------------------------------------------
+
+ 
+3/8/2021 2:42:06 PM
+
+Method Name: CRMPAYVERIFY
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6012: User Authorization Failed
+   at NPAG.Services.UserService.Authenticate(VerifyRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 75
+   at NPAG.Controllers.PaymentController.Authenticate(VerifyRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 43
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+3/8/2021 2:46:41 PM
+
+Method Name: CRMPAYVERIFY
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6012: User Authorization Failed
+   at NPAG.Services.UserService.Authenticate(VerifyRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 75
+   at NPAG.Controllers.PaymentController.Authenticate(VerifyRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 43
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+3/8/2021 2:49:06 PM
+
+Method Name: CRMPAYVERIFY
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6012: User Authorization Failed
+   at NPAG.Services.UserService.Authenticate(VerifyRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 75
+   at NPAG.Controllers.PaymentController.Authenticate(VerifyRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 43
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+3/8/2021 2:52:53 PM
+
+Method Name: CRMPAYVERIFY
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6012: User Authorization Failed
+   at NPAG.Services.UserService.Authenticate(VerifyRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 75
+   at NPAG.Controllers.PaymentController.Authenticate(VerifyRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 43
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ m3PbLRy/eRv7+P4Jkw9hLg== ~ No-ReceiptNo ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+3/8/2021 2:55:51 PM
+
+Method Name: CRMPAYVERIFY
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6014: Payment is already Paid by TestBranchName1(KASUNTEST)/TestCompName(KASUNTEST) (3985)
+   at NPAG.Services.UserService.Authenticate(VerifyRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 98
+   at NPAG.Controllers.PaymentController.Authenticate(VerifyRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 43
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ CY2yNSQLR36YNo9sh0Z7qw== ~ No-ReceiptNo ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+3/8/2021 4:26:13 PM
+
+Method Name: CRMPAYACCEPT
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6006: Invalid Payment Amount
+   at NPAG.Services.UserService.Payment(PayRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 162
+   at NPAG.Controllers.PaymentController.PostPayment(PayRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 91
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ 1597.00 ~ 02/06/2020 11:31:46 am ~ kasuntest1 ~ CY2yNSQLR36YNo9sh0Z7qw== ~ MC0501C2004250000402 ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+3/8/2021 4:28:44 PM
+
+Method Name: CRMPAYACCEPT
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6006: Invalid Payment Amount
+   at NPAG.Services.UserService.Payment(PayRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 162
+   at NPAG.Controllers.PaymentController.PostPayment(PayRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 91
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21646861481 ~ 7998 ~ 625 ~ 1597.00 ~ 02/06/2020 11:31:46 am ~ kasuntest1 ~ CY2yNSQLR36YNo9sh0Z7qw== ~ MC0501C2004250000402 ~ 0.0.0.1
+----------------------------------------------------------------------------------

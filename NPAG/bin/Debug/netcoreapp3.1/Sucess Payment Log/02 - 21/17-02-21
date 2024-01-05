@@ -1,0 +1,48 @@
+----------------------------------------------------------------------------------
+         N-P-A-G Error log Info File.(c)Copyright 2021 EPIC Lanka Technologies   
+         This File was Generated for Developers Purposes, Please DO NOT DELETE!   
+         Report Generated On : 2/17/2021 11:18:48 AM
+----------------------------------------------------------------------------------
+
+ 
+2/17/2021 11:18:48 AM
+
+Method Name: CRMPAYVERIFY
+
+Posted Values:
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21647587446 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Mr Shamalaine Ahmed, , 3195.89
+----------------------------------------------------------------------------------
+
+ 
+2/17/2021 11:23:11 AM
+
+Method Name: CRMPAYVERIFY
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21647587446 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ Rvh0qecv5bR08o7hlTgx0Q== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Mr Shamalaine Ahmed, , 3195.89
+----------------------------------------------------------------------------------
+
+ 
+2/17/2021 11:24:36 AM
+
+Method Name: CRMPAYACCEPT
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21647587446 ~ 7998 ~ 625 ~ 3195.89 ~ 02/06/2020 11:31:46 am ~ test1 ~ Rvh0qecv5bR08o7hlTgx0Q== ~ MC0501C2004250000400 ~ 0.0.0.1
+
+Returned Values: 3867
+----------------------------------------------------------------------------------

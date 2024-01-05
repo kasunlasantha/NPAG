@@ -1,0 +1,113 @@
+----------------------------------------------------------------------------------
+         N-P-A-G Error log Info File.(c)Copyright 2021 EPIC Lanka Technologies   
+         This File was Generated for Developers Purposes, Please DO NOT DELETE!   
+         Report Generated On : 4/21/2021 12:35:30 PM
+----------------------------------------------------------------------------------
+
+ 
+4/21/2021 12:35:30 PM
+
+Method Name: CRMPAYVERIFY
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6012: User Authorization Failed
+   at NPAG.Services.UserService.Authenticate(VerifyRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 75
+   at NPAG.Controllers.PaymentController.Authenticate(VerifyRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 43
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-22142097 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ CY2yNSQLR36YNo9sh0Z7qw== ~ No-ReceiptNo ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+4/21/2021 9:47:06 PM
+
+Method Name: CRMPAYVERIFY
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6001: Invalid Order Number
+   at NPAG.Services.UserService.Authenticate(VerifyRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 82
+   at NPAG.Controllers.PaymentController.Authenticate(VerifyRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 43
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21638589620 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ CY2yNSQLR36YNo9sh0Z7qw== ~ No-ReceiptNo ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+4/21/2021 9:54:30 PM
+
+Method Name: CRMPAYVERIFY
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6001: Invalid Order Number
+   at NPAG.Services.UserService.Authenticate(VerifyRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 82
+   at NPAG.Controllers.PaymentController.Authenticate(VerifyRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 43
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21638589620 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ CY2yNSQLR36YNo9sh0Z7qw== ~ No-ReceiptNo ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+4/21/2021 9:57:03 PM
+
+Method Name: CRMPAYACCEPT
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6001: Invalid Order Number
+   at NPAG.Services.UserService.Payment(PayRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 127
+   at NPAG.Controllers.PaymentController.PostPayment(PayRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 91
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21638589620 ~ 7998 ~ 625 ~ 3195.89 ~ 02/06/2020 11:31:46 am ~ kasuntest1 ~ CY2yNSQLR36YNo9sh0Z7qw== ~ MC0501C2004250000403 ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+4/21/2021 9:57:34 PM
+
+Method Name: CRMPAYACCEPT
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6016: Receipt Number must be unique
+   at NPAG.Services.UserService.PostData(CRM_PAYMENT paymment) in F:\work\NPAG\NPAG\Services\UserService.cs:line 272
+   at NPAG.Services.UserService.Payment(PayRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 242
+   at NPAG.Controllers.PaymentController.PostPayment(PayRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 91
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21638589620 ~ 7998 ~ 625 ~ 3195.89 ~ 02/06/2020 11:31:46 am ~ kasuntest1 ~ CY2yNSQLR36YNo9sh0Z7qw== ~ MC0501C2004250000403 ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+4/21/2021 9:57:50 PM
+
+Method Name: CRMPAYACCEPT
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6016: Receipt Number must be unique
+   at NPAG.Services.UserService.PostData(CRM_PAYMENT paymment) in F:\work\NPAG\NPAG\Services\UserService.cs:line 272
+   at NPAG.Services.UserService.Payment(PayRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 242
+   at NPAG.Controllers.PaymentController.PostPayment(PayRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 91
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21638589620 ~ 7998 ~ 625 ~ 3195.89 ~ 02/06/2020 11:31:46 am ~ kasuntest1 ~ CY2yNSQLR36YNo9sh0Z7qw== ~ MC0501C2004250000404 ~ 0.0.0.1
+----------------------------------------------------------------------------------
+
+ 
+4/21/2021 9:58:02 PM
+
+Method Name: CRMPAYACCEPT
+
+Return Message System.Security.Authentication.AuthenticationException: Error-6016: Receipt Number must be unique
+   at NPAG.Services.UserService.PostData(CRM_PAYMENT paymment) in F:\work\NPAG\NPAG\Services\UserService.cs:line 272
+   at NPAG.Services.UserService.Payment(PayRequest model, String ipAddress) in F:\work\NPAG\NPAG\Services\UserService.cs:line 242
+   at NPAG.Controllers.PaymentController.PostPayment(PayRequest model) in F:\work\NPAG\NPAG\Controllers\PaymentController.cs:line 91
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21638589620 ~ 7998 ~ 625 ~ 3195.89 ~ 02/06/2020 11:31:46 am ~ kasuntest1 ~ CY2yNSQLR36YNo9sh0Z7qw== ~ MC0501C2004250000405 ~ 0.0.0.1
+----------------------------------------------------------------------------------

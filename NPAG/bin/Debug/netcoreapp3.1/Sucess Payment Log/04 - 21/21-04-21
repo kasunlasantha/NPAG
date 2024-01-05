@@ -1,0 +1,48 @@
+----------------------------------------------------------------------------------
+         N-P-A-G Error log Info File.(c)Copyright 2021 EPIC Lanka Technologies   
+         This File was Generated for Developers Purposes, Please DO NOT DELETE!   
+         Report Generated On : 4/21/2021 9:47:50 PM
+----------------------------------------------------------------------------------
+
+ 
+4/21/2021 9:47:50 PM
+
+Method Name: CRMPAYVERIFY
+
+Posted Values:
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21638589620 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ CY2yNSQLR36YNo9sh0Z7qw== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Miss P. G. S. R. DISSANAYAKE, 771181811, 3195.89
+----------------------------------------------------------------------------------
+
+ 
+4/21/2021 9:55:38 PM
+
+Method Name: CRMPAYVERIFY
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21638589620 ~ 7998 ~ 625 ~ No-Amount ~ No-DateTime ~ No UID ~ CY2yNSQLR36YNo9sh0Z7qw== ~ No-ReceiptNo ~ 0.0.0.1
+
+Returned Values: Miss P. G. S. R. DISSANAYAKE, 771181811, 3195.89
+----------------------------------------------------------------------------------
+
+ 
+4/21/2021 9:58:19 PM
+
+Method Name: CRMPAYACCEPT
+
+This is a Successful Payment
+
+Posted Values
+OrderNummber ~ CompanyCode ~ BranchCode ~ PaymentAmount ~ PaymentDateTime ~ UID ~ SecuCode ~ ReceiptNo ~ IP Address
+
+1-21638589620 ~ 7998 ~ 625 ~ 3195.89 ~ 02/06/2020 11:31:46 am ~ kasuntest1 ~ CY2yNSQLR36YNo9sh0Z7qw== ~ MC0501C2004250000406 ~ 0.0.0.1
+
+Returned Values: 4154
+----------------------------------------------------------------------------------
